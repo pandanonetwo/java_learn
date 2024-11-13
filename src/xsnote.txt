@@ -1,0 +1,56 @@
+//单行注释
+/*
+* 多行注释
+* 多行注释
+* */
+//文档注释下面演示
+/*
+*@author xishun
+*@version 1.0
+*/
+//javadoc -d 文件夹名 -xx -yy Demo3.java
+//javadoc -d d:\\test -xiashun -version ...
+相对路径：从当前工作目录开始定位，形成的一个路径
+绝对路径：从顶级目录开始定位，行程的路径
+相对路径：..\..\ 两个点一个\表示返回上一级目录
+绝对路径：d:\Programdata\anaconda\
+byte、short、chat参与运算时，都会统一转换为int参与计算
+int比short精度高，所以short在运算的时候是不能转int的
+类型转换{
+Integer.parseInteger(123)
+Double.parseDouble(123)
+Long.parseLong(123)
+Float.parseFloat(123)
+Byte.parseByte(123)
+Boolean.parseBoolean("true")
+}
+输入操作 //简单的文本扫描器
+导入java.util这个包里面的Scanner类
+ import java.util.Scanner
+Scanner myScanner=new Scanner(System.in);
+int age =myScanner.nextInt();
+
+多分支
+if(){
+}else if{
+}else if{
+}else{
+}
+
+switch判断结构--》
+Switch（）表达式不支持double类型
+case子句必须是常量或者可以转换的类型比如‘a'或者97
+default类型是可选的
+switch(char){
+case 'a':
+     System.out.println(a);
+     break;
+case 'b':
+     System.out.println(b);
+     break;
+default:
+     System.out.println("你输入的字符不正确。")
+}
+补充System.out.println()和
+   System.out.print()的区别，
+   多了个ln表示输出完了之后会自动换行。
