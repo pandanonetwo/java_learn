@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class HaniTower {
     public static void main(String args[]){
         Tower tower=new Tower();
         tower.move(10,'A','B','C');
+
 
     }
 }
