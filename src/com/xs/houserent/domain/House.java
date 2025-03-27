@@ -22,6 +22,10 @@ public class House {
         this.state = state;
     }
 
+    public House() {
+
+    }
+
     public int getId() {
         return id;
     }
